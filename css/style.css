@@ -1,6 +1,6 @@
 /* General */
 h3{
-    font-weight: 300;
+    font-weight: 400;
 }
 
 
@@ -27,6 +27,7 @@ h3{
 /* carrusel */
 .carousel-item{
     max-height: 500px;
+    background-image: url(../img/bg1.jpg);
 }
 .texto{
     width: 50%;
@@ -42,9 +43,53 @@ h3{
     width: 100%;
     max-width: 410px;
 }
-
 /* fin carrusel */
 
+/* hacemos */
+.hacemos h2{
+    color: #F48712;
+    font-weight: 400;
+}
+.hacemos h3{
+    color: #F48712;
+}
+.hacemos p{
+    color: #333;
+}
+/* fin hacemos */
+
+/* trabajos */
+.trabajos{
+    width: 100%;
+    padding: 30px 0px;
+    background: rgb(19,196,203);
+    background: radial-gradient(circle, rgba(19,196,203,1) 0%, rgba(12,151,156,1) 54%, rgba(17,72,79,1) 100%);
+}
+.trabajos h3{
+    color: #0C979C;
+}
+.trabajos p{
+    color: #333;
+}
+.btn-primary{
+    background-color: #F48712;
+    border: none;
+}
+.btn-primary:hover{
+    background-color: #c06605;
+}
+
+.modal-header h1{
+    color: #0C979C;
+    font-weight: 400;
+}
+/* fin trabajos */
+
+/* contacto */
+.contacto{
+    width: 100%;
+}
+/* fin contacto */
 
 /* footer */
 footer a{
