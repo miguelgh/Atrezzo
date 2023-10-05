@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
 
     <!--Css-->
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <title>Atrezzo Ideas Gráficas</title>
 </head>
@@ -246,22 +246,41 @@
       <div class="separador"></div>
 
       <!-- Contacto -->
-      <section id="contacto" class="contacto my-4">
+      <section id="contacto" class="contacto py-4">
         <div class="container">
           <div class="row">
             <div class="col-lg-6">
               <h3>Estemos en contacto</h3>
-              <p>Realizanos tus consultas, estaremos contentos de responder cualquier inquietud.
+              <p class="pe-3">Realizanos tus consultas, estaremos contentos de responder cualquier inquietud.
                 Presupuestos sin cargo</p>
+                <form action="" class="formulario pe-4">
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control border-0" id="floatNombre" placeholder="Nombre">
+                    <label for="floatNombre">Nombre</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="email" class="form-control border-0" id="floatEmail" placeholder="Email">
+                    <label for="floatEmail">Email</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="number" class="form-control border-0" id="floatNumber" placeholder="Teléfono">
+                    <label for="floatNumber">Teléfono</label>
+                  </div>
+                  <div class="form-floating">
+                    <textarea class="form-control border-0" placeholder="Mensaje" id="floatingMensaje" style="height: 100px"></textarea>
+                    <label for="floatingmensaje">Mensaje</label>
+                  </div>
+                </form>
             </div>
             <div class="col-lg-6">
               <h4>Seguinos en nuestras redes</h4>
-              <p><a href="#">Facebook.com/atrezzo.di</a></p>
+              <p class="mb-2"><a href="#">Facebook.com/atrezzo.di</a></p>
               <p><a href="#">Instagram.com/atrezzo.di</a></p>
               <h4>Envianos un correo</h4>
               <p><a href="#">atrezzo.di@gmail.com</a></p>
               <h4>Nuestro Whatsapp</h4>
               <p><a href="#">11 3594-3772</a></p>
+              <p class="mt-4"><img src="img/Contacto.png" alt=""></p>
             </div>
           </div>
         </div>
@@ -271,11 +290,12 @@
     </main>
 
     <div class="separador"></div>
-    <footer class="bg-dark text-light pt-2">
+
+    <footer class="bg-dark text-light pt-4">
       <div class="container-lg">
         <div class="row">
           <div class="col-md-4 col-sm-6">
-            <a href="#"><img class="logoFooter mb-2" src="/img/logo-blanco.svg"/></a>
+            <a href="#"><img class="logoFooter mb-2" src="img/logo-blanco.svg"/></a>
             <ul class="ps-1">
               <li><a href="#">Nosotros</a></li>
               <li><a href="#">Servicios</a></li>
@@ -303,6 +323,11 @@
               <li><a href="#">email: atrezzo.di@gmail.com</a></li>
             </ul>
           </div>
+        </div>
+      </div>
+      <div class="row bg-black pt-2">
+        <div class="col-12 text-center">
+          <p>Trabajo practico Codo a Codo, Miguel González</p>
         </div>
       </div>
     </footer>

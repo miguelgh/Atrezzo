@@ -88,6 +88,31 @@ h3{
 /* contacto */
 .contacto{
     width: 100%;
+   /* background-color: #F48712;*/
+   background: rgb(190,55,0);
+   background: linear-gradient(0deg, rgba(190,55,0,1) 0%, rgba(244,103,18,1) 35%, rgba(244,135,18,1) 100%);
+}
+.contacto h3{
+    color: white;
+}
+.contacto h4{
+    color: white;
+    font-size: medium;
+    border-bottom:solid 1px #0C979C;
+    padding-bottom: 5px;
+}
+.contacto a{
+    color: white;
+    text-decoration: none;
+}
+.contacto a:hover{
+    color: rgb(250, 236, 172);
+}
+.formulario label{
+    color: #333;
+}
+.formulario textarea{
+    resize: none;
 }
 /* fin contacto */
 
