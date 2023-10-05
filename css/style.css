@@ -24,6 +24,27 @@ h3{
 }
 /*fin nav*/
 
+/* carrusel */
+.carousel-item{
+    max-height: 500px;
+}
+.texto{
+    width: 50%;
+}
+.texto h2{
+    color: #F48712;
+    font-weight: 300;
+}
+.foto{
+    width: 50%;
+}
+.foto img{
+    width: 100%;
+    max-width: 410px;
+}
+
+/* fin carrusel */
+
 
 /* footer */
 footer a{
