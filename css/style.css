@@ -26,8 +26,10 @@ h3{
 
 /* carrusel */
 .carousel-item{
-    max-height: 500px;
+    height: 500px;
     background-image: url(../img/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .texto{
     width: 50%;
@@ -43,6 +45,28 @@ h3{
     width: 100%;
     max-width: 410px;
 }
+@media screen and (max-width: 1000px){
+    .carousel-item{
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .carousel-item{
+        height: 300px;
+    }
+    .carousel-caption{
+        bottom: 3.25rem;
+    }
+    .texto{
+        width: 100%;
+    }
+    .foto{
+        display: none;
+    }
+
+}
+
 /* fin carrusel */
 
 /* hacemos */
@@ -88,8 +112,34 @@ h3{
 /* contacto */
 .contacto{
     width: 100%;
+   /* background-color: #F48712;*/
+   background: rgb(190,55,0);
+   background: linear-gradient(0deg, rgba(190,55,0,1) 0%, rgba(244,103,18,1) 35%, rgba(244,135,18,1) 100%);
+}
+.contacto h3{
+    color: white;
+}
+.contacto h4{
+    color: white;
+    font-size: medium;
+    border-bottom:solid 1px #0C979C;
+    padding-bottom: 5px;
+}
+.contacto a{
+    color: white;
+    text-decoration: none;
+}
+.contacto a:hover{
+    color: rgb(250, 236, 172);
+}
+.formulario label{
+    color: #333;
+}
+.formulario textarea{
+    resize: none;
 }
 /* fin contacto */
+
 
 /* footer */
 footer a{

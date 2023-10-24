@@ -11,6 +11,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
 
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!--Css-->
     <link rel="stylesheet" href="/css/style.css">
 
@@ -37,16 +40,19 @@
                       Servicios
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Diseño</a></li>
-                      <li><a class="dropdown-item" href="#">Impresión</a></li>
-                      <li><a class="dropdown-item" href="#">Vinilos</a></li>
-                      <li><a class="dropdown-item" href="#">Lonas</a></li>
-                      <li><a class="dropdown-item" href="#">Textil</a></li>
-                      <li><a class="dropdown-item" href="#">Corporeos</a></li>
+                      <li><a class="dropdown-item ms-2" href="#">> Diseño</a></li>
+                      <li><a class="dropdown-item ms-2" href="#">> Impresión</a></li>
+                      <li><a class="dropdown-item ms-2" href="#">> Vinilos</a></li>
+                      <li><a class="dropdown-item ms-2" href="#">> Lonas</a></li>
+                      <li><a class="dropdown-item ms-2" href="#">> Textil</a></li>
+                      <li><a class="dropdown-item ms-2" href="#">> Corporeos</a></li>
                     </ul>
                   </li>
                   <li class="nav-item">
                         <a class="nav-link p-3" href="#">Instructivos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link p-3" href="#">Compra</a>
                   </li>
                   <li class="nav-item">
                       <a class="nav-link p-3" href="#contacto">Contactanos</a>
@@ -61,7 +67,7 @@
     
     <main>
       <!--carrusel-->
-      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="true">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -69,9 +75,9 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="img/bg1.jpg" class="d-block w-100" alt="...">
+           
             <div class="carousel-caption d-flex">
-              <div class="texto text-start align-self-center">
+              <div class="texto text-md-start text-sm-center align-self-center">
                 <h2>Impresión digital y Offset</h2>
                 <p>Te brindamos opciones en tiempos de producción sin descuidar la calidad para resolver trabajos en papelería.<br><br>
                   Tarjetas, Folletos, Imanes, Stickers, Carpetas entre otros.</p>
@@ -82,9 +88,9 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img src="img/bg1.jpg" class="d-block w-100" alt="...">
+
             <div class="carousel-caption d-flex">
-              <div class="texto text-start align-self-center">
+              <div class="texto text-md-start text-sm-center align-self-center">
                 <h2>Vinilos Impresos | Vidrieras</h2>
                 <p>Trabajamos con materiales de excelente calidad y alta resistencia.<br><br>
                   Realizamos servicio de instalación.</p>
@@ -95,9 +101,8 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img src="img/bg1.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-flex">
-              <div class="texto text-start align-self-center">
+              <div class="texto text-md-start text-sm-center align-self-center">
                 <h2>Lonas Impresas | Cartelería</h2>
                 <p>Realizamos distintos tipos de lonas y sobre variedad de soportes.</p>
               </div>
@@ -125,19 +130,19 @@
           <p class="px-5">Te brindamos distintos servicios en gráfica para llevar a cabo tus ideas, trabajamos a medida, diseñamos en base a tus gustos y necesidades aportando con nuestra experiencia en el rubro. Tenemos una variedad de soportes para</p>
         </div>
         <div class="row my-3">
-          <div class="col-4 text-center py-2">
+          <div class="col-md-4 col-sm-6 text-center py-2 my-2">
             <img src="img/Impresion01.png" alt="">
             <h3>Impresión</h3>
             <p class="px-3">Realizamos impresión de papelería en sistema digital y off-set.</p>
             <a class="btn btn-secondary" href="#">ver más</a>
           </div>
-          <div class="col-4 text-center py-2">
+          <div class="col-md-4 col-sm-6 text-center py-2 my-2">
             <img src="img/vinilo01.png" alt="">
             <h3>Vinilos/Vidrieras</h3>
             <p class="px-3">Trabajamos gran variedad de vinilos. Realizamos servicio de instalación.</p>
             <a class="btn btn-secondary" href="#">ver más</a>
           </div>
-          <div class="col-4 text-center py-2">
+          <div class="col-md-4 col-sm-6 text-center py-2 my-2">
             <img src="img/lona01.png" alt="">
             <h3>Lonas/Cartelería</h3>
             <p class="px-3">Imprimimos distintos tipos de lonas, realizamos cartelería personalizada.</p>
@@ -151,7 +156,7 @@
       <section class="trabajos">
         <div class="container">
           <div class="row g-3">
-            <div class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-sm-center">
+            <div class="col-lg-4 col-md-6 col-sm-12 col-12 d-flex justify-content-center">
               <!-- card -->
               <div class="card border-0 shadow" style="width: 18rem;">
                 <img src="img/fotos/item11.png" class="card-img-top" alt="...">
@@ -180,7 +185,7 @@
               </div>
               <!-- fin card -->
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-sm-center">
+            <div class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center">
               <!-- card -->
               <div class="card border-0 shadow" style="width: 18rem;">
                 <img src="img/fotos/item12.png" class="card-img-top" alt="...">
@@ -209,7 +214,7 @@
               </div>
               <!-- fin card -->
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-sm-center">
+            <div class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center">
               <!-- card -->
               <div class="card border-0 shadow" style="width: 18rem;">
                 <img src="img/fotos/item1.png" class="card-img-top" alt="...">
@@ -246,22 +251,41 @@
       <div class="separador"></div>
 
       <!-- Contacto -->
-      <section id="contacto" class="contacto my-4">
+      <section id="contacto" class="contacto py-4">
         <div class="container">
           <div class="row">
             <div class="col-lg-6">
               <h3>Estemos en contacto</h3>
-              <p>Realizanos tus consultas, estaremos contentos de responder cualquier inquietud.
+              <p class="pe-3">Realizanos tus consultas, estaremos contentos de responder cualquier inquietud.
                 Presupuestos sin cargo</p>
+                <form action="" class="formulario pe-4">
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control border-0" id="floatNombre" placeholder="Nombre">
+                    <label for="floatNombre">Nombre</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="email" class="form-control border-0" id="floatEmail" placeholder="Email">
+                    <label for="floatEmail">Email</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="number" class="form-control border-0" id="floatNumber" placeholder="Teléfono">
+                    <label for="floatNumber">Teléfono</label>
+                  </div>
+                  <div class="form-floating">
+                    <textarea class="form-control border-0" placeholder="Mensaje" id="floatingMensaje" style="height: 100px"></textarea>
+                    <label for="floatingmensaje">Mensaje</label>
+                  </div>
+                </form>
             </div>
             <div class="col-lg-6">
               <h4>Seguinos en nuestras redes</h4>
-              <p><a href="#">Facebook.com/atrezzo.di</a></p>
-              <p><a href="#">Instagram.com/atrezzo.di</a></p>
+              <p class="mb-2"><a href="#"><i class="fa-brands fa-facebook"></i> /atrezzo.di</a></p>
+              <p><a href="#"><i class="fa-brands fa-instagram"></i> /atrezzo.di</a></p>
               <h4>Envianos un correo</h4>
-              <p><a href="#">atrezzo.di@gmail.com</a></p>
+              <p><a href="#"><i class="fa-regular fa-envelope"></i> atrezzo.di@gmail.com</a></p>
               <h4>Nuestro Whatsapp</h4>
-              <p><a href="#">11 3594-3772</a></p>
+              <p><a href="#"><i class="fa-brands fa-whatsapp"></i> 11 3594-3772</a></p>
+              <p class="mt-4"><img src="./Contacto.png" alt=""></p>
             </div>
           </div>
         </div>
@@ -271,11 +295,12 @@
     </main>
 
     <div class="separador"></div>
-    <footer class="bg-dark text-light pt-2">
+    
+    <footer class="bg-dark text-light pt-4">
       <div class="container-lg">
         <div class="row">
           <div class="col-md-4 col-sm-6">
-            <a href="#"><img class="logoFooter mb-2" src="/img/logo-blanco.svg"/></a>
+            <a href="#"><img class="logoFooter mb-2" src="img/logo-blanco.svg"/></a>
             <ul class="ps-1">
               <li><a href="#">Nosotros</a></li>
               <li><a href="#">Servicios</a></li>
@@ -297,12 +322,17 @@
           <div class="col-md-4 col-sm-6">
             <h3>Contacto</h3>
             <ul class="ps-1">
-              <li><a href="#">What: 11 3594-3772</a></li>
-              <li><a href="#">Insta: atrezzo.di</a></li>
-              <li><a href="#">face: atrezzo.di</a></li>
-              <li><a href="#">email: atrezzo.di@gmail.com</a></li>
+              <li><a href="#"><i class="fa-brands fa-whatsapp"></i> 11 3594-3772</a></li>
+              <li><a href="#"><i class="fa-brands fa-instagram"></i> atrezzo.di</a></li>
+              <li><a href="#"><i class="fa-brands fa-facebook"></i> atrezzo.di</a></li>
+              <li><a href="#"><i class="fa-regular fa-envelope"></i> atrezzo.di@gmail.com</a></li>
             </ul>
           </div>
+        </div>
+      </div>
+      <div class="row bg-black pt-2">
+        <div class="col-12 text-center">
+          <p>Trabajo practico Codo a Codo, Miguel González</p>
         </div>
       </div>
     </footer>
