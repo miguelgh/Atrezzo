@@ -55,7 +55,7 @@
                         <a class="nav-link p-3" href="#">Instructivos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link p-3" href="#">Compra</a>
+                    <a class="nav-link p-3" href="#compra">Compra</a>
                   </li>
                   <li class="nav-item">
                       <a class="nav-link p-3" href="#contacto">Contactanos</a>
@@ -252,6 +252,103 @@
       <!-- fin Trabajos -->
 
       <div class="separador"></div>
+      
+      <!--Comprar-->
+      <section id="compra" class="container comprar">
+        <div class="row text-center my-4">
+            <h1>Venta de ticket</h1>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-sm-6 col-12 my-2 text-center">
+                <div class="promo">
+                    <h3>Estudiante</h3>
+                    <p>Tiene un descuento</p>
+                    <p><h4>80%</h4></p>
+                    <p>*Presentar documentación</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-12 my-2 text-center">
+                <div class="promo">
+                    <h3>Trainee</h3>
+                    <p>Tiene un descuento</p>
+                    <p><h4>50%</h4></p>
+                    <p>*Presentar documentación</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-12 my-2 text-center">
+                <div class="promo">
+                    <h3>Junior</h3>
+                    <p>Tiene un descuento</p>
+                    <p><h4>15%</h4></p>
+                    <p>*Presentar documentación</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 my-2 text-center">
+                <p class="m-0">VENTA</p>
+                <h2>VALOR DE TICKET $200</h2>
+            </div>
+        </div>
+        <!-- formulario compra-->
+        <div class="row">
+            <form action="#">
+                <div class="row">
+                    <div class="col-sm-6 col-12 my-2">
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="floatingNombre" placeholder="Nombre">
+                            <label for="floatingNombre">Nombre</label>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-12 my-2">
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="floatingApe" placeholder="Apellido">
+                            <label for="floatingApe">Apellido</label>
+                        </div>
+                    </div>
+                    <div class="col-12 my-2">
+                        <div class="form-floating">
+                            <input type="email" class="form-control" id="floatingCorreo" placeholder="Correo">
+                            <label for="floatingCorreo">Correo</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-12 my-2">
+                        <label for="cantidad" class="form-label">Cantidad</label>
+                        <input type="number" id="cantidad" class="form-control" placeholder="cantidad">
+                    </div>
+                    <div class="col-sm-6 col-12 my-2">
+                        <label for="categoria" class="form-label">Categoría</label>
+                        <select class="form-select" id="categoria">
+                            <option value="estudiante">Estudiante</option>
+                            <option value="trainee">Trainee</option>
+                            <option value="junior">Junior</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 my-2">
+                        <div class="bg-primary-subtle precio">
+                            <p>Total a pagar: $<span id="precio"></span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row botones">
+                    <div class="col-sm-6 col-12 my-2">
+                        <button type="button" class="btn btn-success">Borrar</button>
+                    </div>
+                    <div class="col-sm-6 col-12 my-2">
+                        <button type="button" class="btn btn-success">Resumen</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <!-- fin formulario compra-->
+      </section>
+      <!--Fin Comprar-->
+
+      <div class="separador"></div>
 
       <!-- Contacto -->
       <section id="contacto" class="contacto py-4">
@@ -276,7 +373,7 @@
                   </div>
                   <div class="form-floating">
                     <textarea class="form-control border-0" placeholder="Mensaje" id="floatingMensaje" style="height: 100px"></textarea>
-                    <label for="floatingmensaje">Mensaje</label>
+                    <label for="floatingMensaje">Mensaje</label>
                   </div>
                 </form>
             </div>
@@ -298,11 +395,12 @@
     </main>
 
     <div class="separador"></div>
-    
+
+    <!--Footer-->      
     <footer class="bg-dark text-light pt-4">
       <div class="container-lg">
         <div class="row">
-          <div class="col-md-4 col-sm-6">
+          <div class="col-md-4 col-sm-6 col-6">
             <a href="#"><img class="logoFooter mb-2" src="img/logo-blanco.svg"/></a>
             <ul class="ps-1">
               <li><a href="#">Nosotros</a></li>
@@ -311,7 +409,7 @@
               <li><a href="#">Nosotros</a></li>
             </ul>
           </div>
-          <div class="col-md-4 col-sm-6">
+          <div class="col-md-4 col-sm-6 col-6">
             <h3>Servicios</h3>
             <ul class="ps-1">
               <li><a href="#">Diseño</a></li>
@@ -322,7 +420,7 @@
               <li><a href="#">Corporeos</a></li>
             </ul>
           </div>
-          <div class="col-md-4 col-sm-6">
+          <div class="col-md-4 col-sm-6 col-6">
             <h3>Contacto</h3>
             <ul class="ps-1">
               <li><a href="#"><i class="fa-brands fa-whatsapp"></i> 11 3594-3772</a></li>

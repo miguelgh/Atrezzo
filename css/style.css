@@ -109,6 +109,30 @@ h3{
 }
 /* fin trabajos */
 
+/*compra*/
+.comprar{
+    padding-bottom: 30px;
+}
+.promo{
+    border: solid 2px gray;
+    padding: 20px 10px;
+}
+.promo:nth-child(2){
+    border-color: aqua;
+}
+.precio{
+    border-radius: 5px;
+}
+.precio p{
+    color:#0151b5;
+    padding: 0.8rem 0.75rem;
+}
+.botones .btn{
+    width: 90%;
+    margin: 0 auto;
+}
+/*fin compra*/
+
 /* contacto */
 .contacto{
     width: 100%;
