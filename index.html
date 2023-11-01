@@ -255,8 +255,8 @@
       
       <!--Comprar-->
       <section id="compra" class="container comprar">
-        <div class="row text-center my-4">
-            <h1>Venta de ticket</h1>
+        <div class="row text-center mt-4">
+            <h2>- Venta de ticket -</h2>
         </div>
         <div class="row">
             <div class="col-md-4 col-sm-6 col-12 my-2 text-center">
@@ -285,9 +285,9 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-12 my-2 text-center">
+            <div class="col-12 my-2 text-center ticket">
                 <p class="m-0">VENTA</p>
-                <h2>VALOR DE TICKET $200</h2>
+                <h3>Valor del ticket: <b>$200</b></h3>
             </div>
         </div>
         <!-- formulario compra-->
@@ -321,6 +321,7 @@
                     <div class="col-sm-6 col-12 my-2">
                         <label for="categoria" class="form-label">Categoría</label>
                         <select class="form-select" id="categoria">
+                            <option value="0">Sin categoria</option>
                             <option value="0.80">Estudiante (-80%)</option>
                             <option value="0.50">Trainee (-50%)</option>
                             <option value="0.15">Junior (-15%)</option>
@@ -336,10 +337,10 @@
                 </div>
                 <div class="row botones">
                     <div class="col-sm-6 col-12 my-2">
-                        <button type="button" onclick="resumen()" class="btn btn-success">Resumen</button>
+                        <button type="button" onclick="resumen()" class="btn resumen">Resumen</button>
                     </div>
                     <div class="col-sm-6 col-12 my-2">
-                      <button type="button" onclick="borrar()" class="btn btn-warning">Borrar</button>
+                      <button type="button" onclick="borrar()" class="btn borrar">Borrar</button>
                     </div>
                 </div>
             </form>
@@ -374,6 +375,9 @@
                   <div class="form-floating">
                     <textarea class="form-control border-0" placeholder="Mensaje" id="floatingMensaje" style="height: 100px"></textarea>
                     <label for="floatingMensaje">Mensaje</label>
+                  </div>
+                  <div>
+                    <button class="btn my-3 btn-primary">Enviar</button>
                   </div>
                 </form>
             </div>

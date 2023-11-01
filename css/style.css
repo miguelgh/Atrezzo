@@ -113,13 +113,32 @@ h3{
 .comprar{
     padding-bottom: 30px;
 }
+.comprar h2{
+    color: #11484F;
+    font-weight: 400;
+}
 .promo{
-    border: solid 2px gray;
+    border-radius: 10px;
+    background: #0C979C;
+    background: linear-gradient(45deg, rgba(19,196,203,1) 0%, rgba(12,151,156,1) 54%, rgba(12,106,118,1) 100%);
     padding: 20px 10px;
+    color: white;
 }
-.promo:nth-child(2){
-    border-color: aqua;
+.promo h3{
+    font-weight: bold;
+    margin-bottom: 0.2rem;
 }
+.promo h4{
+    font-weight: bold;
+    font-size: 3rem;
+}
+.promo p{
+    margin-bottom: 0.5rem;
+}
+.ticket h3{
+    color: #11484F
+}
+
 .precio{
     border-radius: 5px;
 }
@@ -131,6 +150,23 @@ h3{
     width: 90%;
     margin: 0 auto;
 }
+.botones .resumen{
+    background-color: #11484F;
+    color: white;
+    transition: all 0.3 ease;
+}
+.resumen:hover{
+    background-color: #0e393f;
+}
+.botones .borrar{
+    background-color: #c06605;
+    color: white;
+    transition: all 0.3 ease;
+}
+.borrar:hover {
+    background-color: #aa5903;
+}
+
 /*fin compra*/
 
 /* contacto */
