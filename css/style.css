@@ -8,17 +8,37 @@ h3{
     position: fixed;
     z-index: 10;
     bottom: 15px;
-    right: 10px;
-    opacity: 0.9;
+    right: 5px;
+    transition: 1s all;
 }
+
+.subir-show{
+    opacity: 0.9;
+    transform: translateY(0);
+}
+
+.subir-hide{
+    opacity: 0;
+    transform: translateY(100px);
+}
+
 .subir a{
     padding: 20px;
+    border-radius: 7px 7px 0px 0px;
     background-color: #F48712;
     color: white;
+}
+.subir a i{
+    font-size: 22px;
 }
 /*fin boton*/
 
 /*Nav*/
+/*Logo*/
+.navbar-brand{
+    width: 150px;
+}
+
 .nav-item a:hover{
     /* background-color: #803d10; */
     background-color: #11484F;
