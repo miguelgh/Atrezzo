@@ -61,6 +61,14 @@
     </header>
     <div class="separadorNaranja"></div>  
     
+    <!--boton whatsapp-->
+    <div class="whatsapp">
+      <a href="#">
+        <i class="fa-brands fa-whatsapp fa-beat"></i>
+      </a>
+    </div>
+    <!--fin whatsapp-->
+
     <!--boton subir-->
     <div class="subir subir-hide">
       <a href="#">
@@ -157,7 +165,7 @@
         </div>
         <!--Card que hacemos-->
         <div class="row my-1 mb-5">
-          <div class="col text-center py-2 my-2 cardMod">
+          <div class="col col-lg-4 text-center py-2 my-2 cardMod">
             <div class="card">
               <a class="cardBtn" href="#">
                 <img src="../img/card1.png" class="card-img-top" alt="...">
@@ -168,7 +176,7 @@
               </a>
             </div>
           </div>
-          <div class="col text-center py-2 my-2 cardMod">
+          <div class="col col-lg-4 text-center py-2 my-2 cardMod">
             <div class="card">
               <a class="cardBtn" href="#">
                 <img src="../img/card2.png" class="card-img-top" alt="...">
@@ -179,7 +187,7 @@
               </a>
             </div>
           </div>
-          <div class="col text-center py-2 my-2 cardMod">
+          <div class="col col-lg-4 text-center py-2 my-2 cardMod">
             <div class="card">
               <a class="cardBtn" href="#">
                 <img src="../img/card3.png" class="card-img-top" alt="...">
@@ -275,37 +283,37 @@
               <p class="pe-4">Realizanos tus consultas, estaremos contentos de responder cualquier inquietud.
                 Presupuestos sin cargo</p>
 
-              <form action="" class="formulario pe-4">
+              <form action="https://formsubmit.co/atrezzografica@gmail.com" method="post" class="formulario pe-4">
                 <div class="form-floating mb-3">
-                  <input type="text" class="form-control border-2" id="floatNombre" placeholder="Nombre" required>
+                  <input type="text" name="nombre" class="form-control border-2" id="floatNombre" placeholder="Nombre" required>
                   <label for="floatNombre">Nombre</label>
                 </div>
                 <div class="form-floating mb-3">
-                  <input type="email" class="form-control border-2" id="floatEmail" placeholder="Email" required>
+                  <input type="email" name="email" class="form-control border-2" id="floatEmail" placeholder="Email" required>
                   <label for="floatEmail">Email</label>
                 </div>
                 <div class="form-floating mb-3">
-                  <input type="number" class="form-control border-2" id="floatNumber" placeholder="Teléfono">
+                  <input type="number" name="telefono" class="form-control border-2" id="floatNumber" placeholder="Teléfono">
                   <label for="floatNumber">Teléfono</label>
                 </div>
                 <div class="form-floating">
-                  <textarea class="form-control border-2" placeholder="Mensaje" id="floatingMensaje" style="height: 100px"></textarea>
+                  <textarea name="mensaje" class="form-control border-2" placeholder="Mensaje" id="floatingMensaje" style="height: 100px"></textarea>
                   <label for="floatingMensaje">Mensaje</label>
                 </div>
                 <div>
-                  <button class="btn my-3 px-3 btn-verde" style="color: white;">Enviar</button>
+                  <button type="submit" class="btn my-3 px-3 btn-verde" style="color: white;">Enviar</button>
                 </div>
               </form>
             </div>
             <div class="col col-redes">
               <h3>Sigamos conectados</h3>
               <h4>Nuestras redes</h4>
-              <p class="mb-2"><a href="#"><i class="fa-brands fa-instagram"></i> /atrezzo.graf</a></p>
-              <p><a href="#"><i class="fa-brands fa-facebook"></i> /atrezzo.graf</a></p>
+              <p class="mb-2"><a href="http://www.instagram.com/atrezzo.graf" target="_blank"><i class="fa-brands fa-instagram"></i> /atrezzo.graf</a></p>
+              <p><a href="http://www.facebook.com/atrezzo.graf" target="_blank"><i class="fa-brands fa-facebook"></i> /atrezzo.graf</a></p>
               <h4>Envianos un correo</h4>
-              <p><a href="#"><i class="fa-regular fa-envelope"></i> atrezzografica@gmail.com</a></p>
+              <p><a href="mailto:atrezzografica@gmail.com"><i class="fa-regular fa-envelope"></i> atrezzografica@gmail.com</a></p>
               <h4>Escríbenos</h4>
-              <p><a href="#"><i class="fa-brands fa-whatsapp"></i> +569 3084 8479</a></p>
+              <p><a href="https://api.whatsapp.com/send?phone=56930848479&text=Hola!%20quiero%20consultar%20sobre%20su%20servicio" target="_blank"><i class="fa-brands fa-whatsapp"></i> +569 3084 8479</a></p>
               <p class="mt-4"><img src="img/Contacto.png" alt=""></p>
             </div>
           </div>

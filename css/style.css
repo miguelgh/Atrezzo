@@ -59,6 +59,30 @@ h2, h3{
 }
 /*fin Separadores*/
 
+/*boton whatsapp*/
+.whatsapp{
+    position: fixed;
+    z-index: 15;
+    bottom: 30px;
+    left: 15px;
+}
+.whatsapp a{
+    padding: 16px;
+    border-radius: 35px;
+    background-color: #0C979C;
+    color: white;
+    transition: all ease 0.5s ;
+}
+.whatsapp a:hover{
+    padding: 18px;
+    background-color: #03c136;
+}
+.whatsapp i{
+    font-size: 25px;
+    vertical-align: sub;
+}
+/*fin boton whatsapp*/
+
 /*boton Subir*/
 .subir{
     position: fixed;
@@ -177,7 +201,7 @@ h2, h3{
 }
 
 .card{
-    width: 20rem;
+    width: 19rem;
 }
 
 .cardMod{
@@ -243,8 +267,8 @@ h2, h3{
 }
 
 .car-trabajos{
-    justify-items: center;
     padding: 0;
+    align-content: center;
 }
 #carrusel-trabajos{
     max-width: 900px;
@@ -274,7 +298,7 @@ h2, h3{
 }
 
 .col-redes{
-    padding-left: 14rem;
+    padding-left: 13rem;
 }
 .col-redes h3, h4, p, a{
     color: white;
@@ -290,7 +314,7 @@ h2, h3{
 }
 .col-redes a{
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     transition: all ease 0.3s;
 }
 .col-redes a:hover{
