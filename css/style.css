@@ -3,10 +3,61 @@ body{
     font-family: 'Open Sans', serif;
     font-weight: normal;
 }
-h2{
-    font-weight: 400;
+h2, h3{
+    font-weight: 600;
     font-family: 'Montserrat', serif;
+    letter-spacing: 0.06rem;
 }
+
+.btn-verde{
+    background-color: #14969B;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.btn-verde:hover{
+    background-color: #137578;
+}
+.btn-verde:active{
+    background-color: #137578 !important;
+}
+
+.btn-naranja{
+    background-color: #FF6600;
+    margin: 5px 0px 5px 0px;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.btn-naranja:hover{
+    background-color: #c8572f;
+}
+.btn-naranja:active{
+    background-color: #c8572f !important;
+}
+
+/*Separadores*/
+.separadorMulti{
+    width: 100%;
+    height: 4px;
+    background: rgb(255,101,0);
+    background-image: url(../img/fondoColor.png);
+}
+.separadorNaranja{
+    width: 100%;
+    height: 4px;
+    background: rgb(255,101,0);
+}
+.separadorVerde{
+    width: 100%;
+    height: 4px;
+    background: #0C979C;
+}
+/*fin Separadores*/
 
 /*boton Subir*/
 .subir{
@@ -18,7 +69,6 @@ h2{
 }
 
 .subir-show{
-    opacity: 0.9;
     transform: translateY(0);
 }
 
@@ -34,7 +84,7 @@ h2{
     color: white;
 }
 .subir a i{
-    font-size: 22px;
+    font-size: 24px;
 }
 /*fin boton*/
 
@@ -57,27 +107,27 @@ h2{
 .active:hover{
     background-color: #AD502F!important;
 }
-.separador{
-    width: 100%;
-    height: 4px;
-    background: rgb(255,101,0);
-    background-image: url(../img/fondoColor.png);
-}
 /*fin nav*/
 
 /* carrusel */
-.carousel-item{
+.carousel-caption{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.carrusel-menu{
     height: 500px;
     background-image: url(../img/bg1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .texto{
     width: 50%;
 }
 .texto h2{
-    color: #F48712;
-    font-weight: 300;
+    color: #FF6600;
+    font-weight:bold;
 }
 .foto{
     width: 50%;
@@ -87,13 +137,13 @@ h2{
     max-width: 410px;
 }
 @media screen and (max-width: 1000px){
-    .carousel-item{
+    .carrusel-menu{
         height: 400px;
     }
 }
 
 @media screen and (max-width: 700px){
-    .carousel-item{
+    .carrusel-menu{
         height: 300px;
     }
     .carousel-caption{
@@ -109,147 +159,142 @@ h2{
 /* fin carrusel */
 
 
-/* hacemos */
+/* Que hacemos */
+.hacemos-textos{
+    justify-content: center;
+}
 .hacemos h2{
-    color: #F48712;
-    font-weight: 400;
+    color: #FF6600;
 }
 .hacemos h3{
-    color: #F48712;
+    color: #FF6600;
+    font-size: 1.5rem;
 }
 .hacemos p{
     color: #333;
+    width: 85%;
+    margin: auto;
+}
+
+.card{
+    width: 20rem;
+}
+
+.cardMod{
+    justify-items: center;
+}
+
+.cardBtn{
+    text-decoration: none;
+    transition:all 0.3s ease;
+}
+.cardBtn:hover{
+    box-shadow: 10px 10px 10px 0px rgba(194,194,194,0.7);
 }
 /* fin hacemos */
 
 
-/* trabajos */
+/* llamado */
+.llamado{
+    width: 100%;
+    padding: 30px 0px;
+    background: #14969B;
+}
+.llamado-texto{
+    color: white;
+}
+
+.llamado-texto h2{
+    font-size: 3.5rem;
+}
+
+/* fin Llamado */
+
+
+/*Trabajos carrusel*/
 .trabajos{
     width: 100%;
     padding: 30px 0px;
-    background: rgb(19,196,203);
-    background: radial-gradient(circle, rgba(19,196,203,1) 0%, rgba(12,151,156,1) 54%, rgba(17,72,79,1) 100%);
+    background-color: #333;
+    background-image: url('../img/FondoTrabajos.png');
 }
-.trabajos h3{
+
+.trabajos-textos{
+    color: white;
+}
+
+.trabajos-textos h2{
+    color: #FF6600;
+    text-align: start;
+}
+.trabajos-textos h3{
+    color: white;
+    text-align: start;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.trabajos-textos h3 i{
     color: #0C979C;
 }
-.trabajos p{
-    color: #333;
-}
-.btn-primary{
-    background-color: #F48712;
-    border: none;
-}
-.btn-primary:hover{
-    background-color: #c06605;
-}
-.modal-header h1{
-    color: #0C979C;
-    font-weight: 400;
-}
-/* fin trabajos */
-
-
-/*compra*/
-.comprar{
-    padding-bottom: 30px;
-}
-.comprar h2{
-    color: #11484F;
-    font-weight: 400;
-}
-.promo{
-    border-radius: 10px;
-    background: #0C979C;
-    background: linear-gradient(45deg, rgba(19,196,203,1) 0%, rgba(12,151,156,1) 54%, rgba(12,106,118,1) 100%);
-    padding: 20px 10px;
-    color: white;
-}
-.promo h3{
-    font-weight: bold;
-    margin-bottom: 0.2rem;
-}
-.promo h4{
-    font-weight: bold;
-    font-size: 3rem;
-}
-.promo p{
-    margin-bottom: 0.5rem;
-}
-.ticket h3{
-    color: #11484F
-}
-.ticket p{
-    color: #F48712;
+.trabajos-textos p{
+    margin: auto;
+    text-align: start;
+    color: #a4a4a4;
 }
 
-.precio{
-    border-radius: 5px;
+.car-trabajos{
+    justify-items: center;
+    padding: 0;
 }
-.precio p{
-    color:#0151b5;
-    padding: 0.8rem 0.75rem;
+#carrusel-trabajos{
+    max-width: 900px;
 }
-.botones .btn{
-    width: 90%;
-    margin: 0 auto;
-}
-.botones .resumen{
-    background-color: #0C979C;
-    color: white;
-    transition: all 0.3 ease;
-}
-.resumen:hover{
-    background-color: #096d7a;
-}
-.botones .borrar{
-    background-color: #F48712;
-    color: white;
-    transition: all 0.3 ease;
-}
-.borrar:hover {
-    background-color: #aa5903;
-}
-/*fin compra*/
+/*trabajos carrusel*/
 
 
 /* contacto */
 .contacto{
     width: 100%;
-   /* background-color: #F48712;*/
-   background: rgb(190,55,0);
-   background: linear-gradient(0deg, rgba(190,55,0,1) 0%, rgba(244,103,18,1) 35%, rgba(244,135,18,1) 100%);
+    background-image: url(../img/FondoContacto.png);
+    background-repeat: round;
 }
-.contacto h3{
-    color: white;
+
+.col-form h3{
+    color: #FF6600;
 }
-.contacto h4{
-    color: white;
-    font-size: medium;
-    border-bottom:solid 1px #0C979C;
-    padding-bottom: 5px;
+.col-form p{
+    color: #333;
 }
-.contacto a{
-    color: white;
-    text-decoration: none;
-}
-.contacto a:hover{
-    color: rgb(250, 236, 172);
-}
+
 .formulario label{
     color: #333;
 }
 .formulario textarea{
     resize: none;
 }
-.enviar{
-    background-color: #0C979C;
-    color: white;
-    transition: all 0.3 ease;
+
+.col-redes{
+    padding-left: 14rem;
 }
-.enviar:hover{
+.col-redes h3, h4, p, a{
     color: white;
-    background-color: #096d7a;
+    text-decoration: none;
+}
+.col-redes h4{
+    border-bottom: 2px solid #0C979C;
+}
+.col-redes i{
+    font-size: 1.7rem;    
+    vertical-align: middle;
+    margin-right: 0.5rem;
+}
+.col-redes a{
+    color: white;
+    font-size: 1.2rem;
+    transition: all ease 0.3s;
+}
+.col-redes a:hover{
+    color: #333;
 }
 /* fin contacto */
 
@@ -260,7 +305,7 @@ h2{
 }
 footer a{
   text-decoration: none;
-  color: white;
+  color:#909090;
   font-size: 0.9rem;
   transition: all 0.2s ease-in-out;
 }
@@ -271,7 +316,7 @@ footer a:hover{
 footer li {
     list-style: none;
 }
-footer h3{
+footer h4{
     color: #F48712;
 }
 /* fin footer */
