@@ -306,6 +306,7 @@ h2, h3{
 }
 .col-redes h4{
     border-bottom: 2px solid #0C979C;
+    font-size: 1.4rem;
 }
 .col-redes i{
     font-size: 1.7rem;    
@@ -344,3 +345,25 @@ footer h4{
     color: #F48712;
 }
 /* fin footer */
+
+/*****PAGINA ATREZZO******/
+/*atrezzo*/
+.atrezzo{
+    background-color:white;
+    background-image: url('../img/FondoNosotros.png');
+    background-repeat: round;
+}
+.atrezzo-texto h2{
+    color: #FF6600;
+}
+.destacar{
+    font-size: 1.4rem;
+}
+.atrezzo-texto p{
+    color: #333;
+    padding-right: 2rem;
+}
+.atrezzo-img{
+    text-align: center;
+}
+/*fin atrezzo*/
