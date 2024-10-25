@@ -374,6 +374,7 @@ footer h4{
     padding: 30px 0px;
     background-color: #333;
     background-image: url('../img/FondoTrabajos.png');   
+    background-repeat: repeat-x;
 }
 .galeria-texto{
     text-align: center;
@@ -384,3 +385,9 @@ footer h4{
 .galeria-texto p{
     color: #a4a4a4;
 }
+
+/***** FIN PAGINA ATREZZO******/
+
+/*****PAGINA SERVICIOS******/
+
+/*****FIN PAGINA SERVICIOS******/
