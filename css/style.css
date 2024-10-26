@@ -19,6 +19,7 @@ h2, h3{
 }
 .btn-verde:hover{
     background-color: #137578;
+    color: white;
 }
 .btn-verde:active{
     background-color: #137578 !important;
@@ -35,6 +36,7 @@ h2, h3{
 }
 .btn-naranja:hover{
     background-color: #c8572f;
+    color: white;
 }
 .btn-naranja:active{
     background-color: #c8572f !important;
@@ -398,8 +400,52 @@ footer h4{
     margin-left: 10px;
     padding-top: 10px;
 }
+.subtitulos{
+    display: flex;
+}
+.subtitulos h2{
+    color: #f5f5f5 !important;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.subtitulos hr{
+    width: 70%;
+    margin-left: 15px;
+    color: white;
+}
 
+/* digital */
 .digital p{
     color: #333;
+    margin-bottom: 0px;
 }
+
+.digital-slider{
+    padding-right: 5rem;
+}
+.digital-slider h3{
+    text-shadow: 3px 3px 5px rgba(0,0,0,0.6);
+}
+.digital-slider p{
+    color: white;
+    text-shadow: 3px 3px 5px rgba(0,0,0,0.6);
+}
+
+/* publicidad */
+.publicidad{
+    width: 100%;
+    padding: 30px 0px;
+    background-color: #333;
+    background-image: url('../img/FondoTrabajos.png');
+}
+.publicidad h2{
+    color: #0C979C;
+}
+.publicidad p{
+    margin-bottom: 0px;
+}
+.publicidad hr{
+    color: #f5f5f5;
+}
+
 /*****FIN PAGINA SERVICIOS******/
