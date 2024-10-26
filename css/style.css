@@ -389,5 +389,17 @@ footer h4{
 /***** FIN PAGINA ATREZZO******/
 
 /*****PAGINA SERVICIOS******/
+.servicios-titulos{
+    display: flex;
+    align-items: center;
+    color: #FF6600;
+}
+.servicios-titulos h2{
+    margin-left: 10px;
+    padding-top: 10px;
+}
 
+.digital p{
+    color: #333;
+}
 /*****FIN PAGINA SERVICIOS******/
