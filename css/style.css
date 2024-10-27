@@ -67,6 +67,8 @@ h2, h3{
     z-index: 15;
     bottom: 30px;
     left: 15px;
+    filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0.3));
+    
 }
 .whatsapp a{
     padding: 16px;
@@ -247,6 +249,7 @@ h2, h3{
 
 .trabajos-textos{
     color: white;
+    margin-bottom: 15px;
 }
 
 .trabajos-textos h2{
@@ -322,6 +325,19 @@ h2, h3{
 }
 .col-redes a:hover{
     color: #333;
+}
+
+@media screen and (max-width: 1000px){
+    .contacto{
+        background-image: none;
+        background-color: #FF6600;
+    }
+    .col-form h3{
+        color: white;
+    }
+    .col-redes{
+        padding-left: 0;
+    }
 }
 /* fin contacto */
 
