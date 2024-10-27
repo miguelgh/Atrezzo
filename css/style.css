@@ -164,24 +164,22 @@ h2, h3{
     width: 100%;
     max-width: 410px;
 }
+
 @media screen and (max-width: 1000px){
     .carrusel-menu{
-        height: 400px;
-    }
-}
-
-@media screen and (max-width: 700px){
-    .carrusel-menu{
-        height: 300px;
+        height: 650px;
     }
     .carousel-caption{
         bottom: 3.25rem;
     }
+    .foto{
+        width: 100%;
+    }
     .texto{
         width: 100%;
     }
-    .foto{
-        display: none;
+    .flexSmall{
+        flex-direction: column;
     }
 }
 /* fin carrusel */
@@ -303,7 +301,7 @@ h2, h3{
 }
 
 .col-redes{
-    padding-left: 13rem;
+    padding-left: 3rem;
 }
 .col-redes h3, h4, p, a{
     color: white;
@@ -336,7 +334,7 @@ h2, h3{
         color: white;
     }
     .col-redes{
-        padding-left: 0;
+        padding-left: 1rem;
     }
 }
 /* fin contacto */
@@ -403,7 +401,6 @@ footer h4{
 .galeria-texto p{
     color: #a4a4a4;
 }
-
 /***** FIN PAGINA ATREZZO******/
 
 /*****PAGINA SERVICIOS******/
@@ -530,5 +527,15 @@ footer h4{
 
 .card-texto a{
     text-align: center;
+}
+
+@media screen and (max-width: 1000px){
+    .digital-slider{
+        padding: 0;
+    }
+    .flex-carteleria{
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }
 /*****FIN PAGINA SERVICIOS******/
