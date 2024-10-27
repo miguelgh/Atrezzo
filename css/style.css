@@ -415,6 +415,11 @@ footer h4{
 }
 
 /* digital */
+.digital{
+    background-image: url('../img/servicios/fondo-digital.png');
+    background-repeat: repeat;
+    background-size: contain;
+}
 .digital p{
     color: #333;
     margin-bottom: 0px;
@@ -429,6 +434,10 @@ footer h4{
 .digital-slider p{
     color: white;
     text-shadow: 3px 3px 5px rgba(0,0,0,0.6);
+}
+
+.digital-texto h3{
+    color: #0C979C;
 }
 
 /* publicidad */
@@ -453,12 +462,57 @@ footer h4{
 .web{
     width: 100%;
     padding: 30px 0px;
-    background-color: #19B49B;
+    background-color: #0C979C;
     background-image: url('../img/servicios/fondo-web.png');
+    background-size: contain;
 }
 
 .web h2{
     color: white;
 }
 
+.card-web{
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    bottom: 0px;
+    transition: all ease 0.3s;
+}
+
+.card-web:hover{
+    box-shadow: 8px 8px 8px 0px rgba(0,0,0,0.2);
+    bottom: 10px;
+}
+
+.card-web img{
+    border-radius: 20px 20px 0px 0px;
+}
+
+.card-pos{
+    display: flex;
+    justify-content: center;
+}
+
+.card-texto{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.card-web-h4{
+    color: white;
+    background-color: #FF6600;
+    padding-bottom: 5px;
+}
+.card-web hr{
+    margin: 0;
+    margin-top: 5px;
+}
+.card-texto p{
+    text-align: left;
+    color: #333;
+    padding: 0.2rem 1rem 0.5rem 1rem ;
+}
+
+.card-texto a{
+    text-align: center;
+}
 /*****FIN PAGINA SERVICIOS******/
