@@ -21,6 +21,8 @@
 
    <!--Css-->
    <link rel="stylesheet" href="./css/style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+   <link rel="stylesheet" href="css/animate.css">
 
     <title>Atrezzo Publicidad SpA</title>
 </head>
@@ -83,7 +85,7 @@
       <section id="digital" class="digital pb-5">
         <div class="container">
           <div class="row pt-4">
-            <div class="col">
+            <div class="wow animate__fadeInUp col">
               <div class="servicios-titulos">
                 <img src="./img/servicios/Digital-icono.png" alt="Icono sección digital">
                 <h2>Diseño gráfico</h2>
@@ -92,7 +94,7 @@
             </div>
             <hr>
           </div>
-          <div class="row py-1">
+          <div class="wow animate__fadeInUp row py-1" data-wow-delay="0.3s">
             <div class="col-lg-5 col-md-12 digital-texto mb-3">
               <p class="mb-3">
                 <i class="fa-solid fa-circle-check"></i> Realizamos diseño de logos a medida<br>
@@ -134,11 +136,11 @@
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#slider-digital" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="carousel-control-prev-icon btn-fondo" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#slider-digital" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="carousel-control-next-icon btn-fondo" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </button>
               </div>
@@ -153,7 +155,7 @@
       <section id="Publicidad" class="py-4 publicidad">
         <div class="container">
           <div class="row">
-            <div class="col">
+            <div class="wow animate__fadeInUp col">
               <div class="servicios-titulos">
                 <img src="./img/servicios/publicidad-icono.png" alt="Icono sección publicidad">
                 <h2>Publicidad</h2>
@@ -166,7 +168,7 @@
             <hr>
           </div>
             <!--carrusel Publicidad Cartelería-->
-            <div class="row flex-carteleria">
+            <div class="wow animate__fadeInUp row flex-carteleria" data-wow-delay="0.2s">
               <div class="col-lg-7 col-md-12 digital-slider">
                 <div id="slider-carteleria" class="carousel slide">
                   <div class="carousel-indicators">
@@ -226,7 +228,7 @@
             <div class="row my-4">
               <hr>
             </div>
-            <div class="row">
+            <div class="wow animate__fadeInUp row" data-wow-delay="0.4s">
               <div class="col-lg-5 col-md-12 digital-texto mb-3">
                 <h3>Vinilos Adhesivos</h3>
                 <p class="mb-3">
@@ -285,7 +287,7 @@
               <div class="row my-4">
                 <hr>
               </div>
-              <div class="row flex-carteleria">
+              <div class="wow animate__fadeInUp row flex-carteleria">
                 <!--carrusel Publicidad textil-->
                 <div class="col-lg-7 col-md-12 digital-slider">
                   <div id="slider-textil" class="carousel slide">
@@ -346,7 +348,7 @@
                 <div class="row my-4">
                   <hr>
                 </div>
-                <div class="row">
+                <div class="wow animate__fadeInUp row">
                   <div class="col-lg-5 col-md-12 digital-texto mb-3">
                     <h3>Impresión</h3>
                     <p class="mb-3">
@@ -409,7 +411,7 @@
       <section id="web" class="pt-4 web">
         <div class="container">
           <div class="row">
-            <div class="col mb-2">
+            <div class="wow animate__fadeInUp col mb-2">
               <div class="servicios-titulos">
                 <img src="./img/servicios/web-icono.png" alt="Icono sección publicidad">
                 <h2>Diseño Web</h2>
@@ -418,7 +420,7 @@
             </div>
           </div>
           <!--cards diseño web-->
-          <div class="row">
+          <div class="wow animate__fadeInUp row" data-wow-delay="0.4s">
             <!--card Landing-->
             <div class="col card-pos my-2">
               <div class="card card-web" style="width: 18rem;">
@@ -525,5 +527,9 @@
     <!--Bootstrap 5.3.2-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="../script/script.js"></script>
+    <script src="script/wow.js"></script>
+    <script>
+    new WOW().init();
+    </script> 
 </body>
 </html>

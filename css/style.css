@@ -217,6 +217,14 @@ h2, h3{
 .cardBtn:hover{
     box-shadow: 10px 10px 10px 0px rgba(194,194,194,0.7);
 }
+
+.card-up{
+    bottom: 0px;
+    transition: all ease 0.3s;
+}
+.card-up:hover{
+    bottom: 15px;
+}
 /* fin hacemos */
 
 
@@ -275,6 +283,11 @@ h2, h3{
 }
 #carrusel-trabajos{
     max-width: 900px;
+}
+.btn-fondo{
+    background-color: #FF6600;
+    border: 5px solid #FF6600;
+    border-radius: 20px;
 }
 /*trabajos carrusel*/
 
