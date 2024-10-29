@@ -395,6 +395,13 @@ footer h4{
 .atrezzo-img{
     text-align: center;
 }
+
+@media screen and (max-width: 1000px){
+    .atrezzo{
+        background-image: none;
+    }
+
+}
 /*fin atrezzo*/
 
 /* Galeria */
@@ -438,6 +445,12 @@ footer h4{
     width: 70%;
     margin-left: 15px;
     color: white;
+}
+.punto-naranja{
+    color: #FF6600;
+}
+.punto-aqua{
+    color: #0C979C;
 }
 
 /* digital */
